@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class='menu'>
+  <scroll-view scroll-x="true" class="top-nav">
+    <view bindtap="toPromo" class="top-btn {{promo}}">推荐</view>
+    <view bindtap="toSearch" class="top-btn {{Search}}">搜索</view>
+  </scroll-view>
+</view>
+<view class="first line">
+  <image class="first-img" mode="scaleToFill" src="../../images/banner.jpg"></image>
+</view> 
+<view class="second line">
+  <view class='current-date'>{{date}}</view>
+  <view class='today-line'>—————<font class='today'>今日荐诗</font>—————</view>
+</view>  
+<view class='poem-promo' bindtap='intoPoem'>
+  <view class='title'>{{poem.title}}</view>
+  <view class='poem-poet'>{{poem.poet}}</view>
+  <view class='poem-line'>{{poem.poemone}}</view>
+  <view class='poem-line'>{{poem.poemtwo}}</view>
+  <view class='poem-line'>{{poem.poemthree}}</view>
+  <view class='poem-line'>{{poem.poemfour}}</view>
+</view> 
+<view class='poem-promo'>
+  <view class='title'>{{poem.title}}</view>
+  <view class='poem-poet'>{{poem.poet}}</view>
+  <view class='poem-line'>{{poem.poemone}}</view>
+  <view class='poem-line'>{{poem.poemteo}}</view>
+  <view class='poem-line'>{{poem.poemthree}}</view>
+  <view class='poem-line'>{{poem.poemfour}}</view>
+</view> 

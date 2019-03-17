@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/poem/poem"
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homeSelect.png"
+      },
+      {
+        "text": "摘抄本",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/logs/logs"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诗情画意",
+    "navigationBarTextStyle":"black"
+  }
+}

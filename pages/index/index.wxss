@@ -1,0 +1,67 @@
+/**index.wxss**/
+body {
+  font-family: "宋体";
+}
+.menu{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  border-bottom:#eee solid 1px;
+  z-index: 100000;
+}
+.top-btn{
+    display: inline-block;
+    padding: 20rpx 50px;
+    font-size: 16px;
+}
+.first-img {
+  width: 100%;
+  /* height: 180px; */
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.second {
+  font-size: 13px;
+  text-align: center;
+}
+.current-date {
+  text-align: center;
+  color:	#DEB887;
+  margin-bottom: 15px;
+}
+.today-line {
+  color: #E5E5E5;
+}
+.today {
+  padding: 4px 50px;
+  background-color: #DEB887;
+  border-radius: 10px;
+  margin: 10px 30px;
+  color: white;
+  font-size: 14px;
+  font-family: "楷体";
+}
+.poem-promo {
+  margin: 0 auto;
+  text-align: center;
+  height: 118px;
+  width: 360px;
+  overflow: hidden;
+  padding-bottom: 5px;
+  border-bottom: 1px #E5E5E5 solid;
+}
+.title {
+  margin: 20px 0;
+  font-size: 15px;
+}
+.poem-poet {
+  margin-top: -10px;
+  font-size: 12px;
+  color: #DEB887;
+}
+.poem-line {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "宋体";
+}

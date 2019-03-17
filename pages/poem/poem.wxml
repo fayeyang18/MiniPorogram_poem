@@ -1,0 +1,19 @@
+<view class='poem-container'>
+  <view class='top_op'>
+    <view class='share'>
+      <image class='collect_icon' src='../../images/share.png'></image>
+      <text class='collect_text'>分享</text>
+    </view>
+    <view class='collect'>
+      <image class='collect_icon' src="{{isCollect?'../../images/collSe.png' : '../../images/coll.png'}}" bindtap='collect'></image>
+      <text class='collect_text'>{{isCollect?'已收藏' : '收藏'}}</text>
+    </view>
+  </view>
+  <view class='title'>{{poem.title}}</view>
+  <view class='poem-poet'>[ {{poem.poet}} ]</view>
+  <view class='poem-line'>{{poem.poemone}}</view>
+  <view class='poem-line'>{{poem.poemtwo}}</view>
+  <view class='poem-line'>{{poem.poemthree}}</view>
+  <view class='poem-line'>{{poem.poemfour}}</view>
+</view> 
+<image class='share' src='../../images/share.png'></image>

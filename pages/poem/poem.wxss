@@ -1,0 +1,47 @@
+.poem-container {
+  text-align: center;
+  font-size: 16px;
+}
+.top_op {
+  display: inline-flex;
+}
+.share {
+  margin-left: 200px;
+  font-size: 12px;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+}
+.collect {
+  margin-left: 10px;
+  font-size: 12px;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+}
+.collect_text {
+  display: block;
+}
+.collect_icon {
+  width: 24px;
+  height: 24px;
+}
+.title {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.poem-poet {
+  font-size: 16px;
+  color: #DEB887;
+}
+.poem-line {
+  margin-top: 30px;
+  font-family: "宋体";
+}
+/* .share {
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  border: 1px #DEB887 solid;
+  border-radius: 24px;
+} */
